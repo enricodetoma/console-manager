@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace console_manager
 {
-    public partial class MainFrm : Form
+    public partial class Settings : Form
     {
-        public MainFrm()
+        public Settings()
         {
             InitializeComponent();
         }
 
-        private void toolStripButtonConfiguration_Click(object sender, EventArgs e)
+        private void buttonBrowseConfigurationPath_Click(object sender, EventArgs e)
         {
 
         }
